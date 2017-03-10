@@ -25,7 +25,7 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 
 	<view name="basic">
-
+		<!-- To Do -->
 	</view>
 
 	<view name="detailed, video">
@@ -52,12 +52,11 @@ license:		creative commons CC-BY-NC-SA
 			<selectedColor>efefef</selectedColor>
 			<primaryColor>efefef</primaryColor>
 			<secondaryColor>888888</secondaryColor>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontPath>./_inc/fonts/font.otf</fontPath>
 			<pos>0 0.1388888888888889</pos>
 			<size>0.25 0.8472222222222222</size>
 			<fontSize>0.0333333333333333</fontSize>
 			<horizontalMargin>0.0078125</horizontalMargin>
-			<!-- <lineSpacing>1.065</lineSpacing> -->
 		</textlist>
 		
 		<text name="system_title" extra="true">
@@ -70,21 +69,12 @@ license:		creative commons CC-BY-NC-SA
 			<alignment>left</alignment>
 		</text>
 		
-		<!-- <image name="img_vid_bg" extra="true"> -->
-			<!-- <pos>0.28125 0.1388888888888889</pos> -->
-			<!-- <origin>0 0</origin> -->
-			<!-- <size>0.34375 0.7777777777777778</size> -->
-			<!-- <path>./_inc/images/description_bg.png</path> -->
-		<!-- </image> -->
-
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
-			<color>000000</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-			<fontSize>0.01</fontSize>
-			<size>0 0</size>
-			<pos>2 2</pos>
-		</text>
+		<image name="img_vid_bg" extra="true">
+			<pos>0.28125 0.1388888888888889</pos>
+			<origin>0 0</origin>
+			<size>0.34375 0.7777777777777778</size>
+			<path>./_inc/images/description_bg.png</path>
+		</image>
 		
 		<image name="description_bg" extra="true">
 			<pos>0.6458333333333333 0.1388888888888889</pos>
@@ -101,17 +91,19 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.0333333333333333</fontSize>
 			<lineSpacing>1.065</lineSpacing>
 		</text>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<size>0 0</size>
+			<pos>2 2</pos>
+		</text>
 
 	</view>
 	
 	<view name="detailed">
-	
-		<image name="img_vid_bg" extra="true">
-			<pos>0.28125 0.1388888888888889</pos>
-			<origin>0 0</origin>
-			<size>0.34375 0.7777777777777778</size>
-			<path>./_inc/images/description_bg.png</path>
-		</image>
 	
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
@@ -122,22 +114,15 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 	
 	<view name="video">
-	
-		<image name="img_vid_bg" extra="true">
-			<pos>0.28125 0.1388888888888889</pos>
-			<origin>0 0</origin>
-			<size>0.34375 0.7777777777777778</size>
-			<path>./_inc/images/description_bg.png</path>
-		</image>
 
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.453125 0.3703703703703704</pos>
 			<size>0.3333333333333333 0.4444444444444444</size>
-			<!-- <default></default> -->
-			<!-- <delay>0</delay> -->
-			<!-- <showSnapshotNoVideo>false</showSnapshotNoVideo> -->
-			<!-- <showSnapshotDelay>true</showSnapshotDelay> -->
+			<default></default>
+			<delay>0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
 		</video>
 	
 	</view>
