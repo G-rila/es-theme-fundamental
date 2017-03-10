@@ -2,7 +2,6 @@
 theme name:		Fundamental
 version:		1.0
 author:			Grila
-license:		
 -->
 
 <theme>
@@ -77,30 +76,6 @@ license:
 			<alignment>left</alignment>
 		</text>
 		
-		<!-- Removed for now, not sure how I like the way it looks -->
-		<!-- <image name="img_vid_bg" extra="true"> -->
-			<!-- <pos>0.28125 0.1388888888888889</pos> -->
-			<!-- <origin>0 0</origin> -->
-			<!-- <size>0.34375 0.7777777777777778</size> -->
-			<!-- <path>./_inc/images/description_bg.png</path> -->
-		<!-- </image> -->
-		
-		<image name="description_bg" extra="true">
-			<pos>0.6458333333333333 0.1388888888888889</pos>
-			<origin>0 0</origin>
-			<size>0.3229166666666667 0.7777777777777778</size>
-			<path>./_inc/images/description_bg.png</path>
-		</image>
-		
-		<text name="md_description">
-			<pos>0.6510416666666667 0.1481481481481481</pos>
-			<size>0.3125 0.7685185185185185</size>
-			<color>efefef</color>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
-			<fontSize>0.0333333333333333</fontSize>
-			<lineSpacing>1.065</lineSpacing>
-		</text>
-		
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
 			<color>000000</color>
 			<forceUppercase>0</forceUppercase>
@@ -114,6 +89,15 @@ license:
 	
 	<view name="detailed">
 	
+		<text name="md_description">
+			<pos>0.6510416666666667 0.1481481481481481</pos>
+			<size>0.3125 0.7685185185185185</size>
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+			<lineSpacing>1.065</lineSpacing>
+		</text>
+		
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
 			<pos>0.453125 0.3703703703703704</pos>
@@ -124,9 +108,18 @@ license:
 	
 	<view name="video">
 
+		<text name="md_description">
+			<pos>0.28125 0.1527777777777778</pos>
+			<size>0.3385416666666667 0.7638888888888889</size>
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+			<lineSpacing>1.065</lineSpacing>
+		</text>
+		
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
-			<pos>0.453125 0.3703703703703704</pos>
+			<pos>0.8020833333333333 0.375</pos>
 			<size>0.3333333333333333 0.4444444444444444</size>
 			<default></default>
 			<delay>0</delay>
