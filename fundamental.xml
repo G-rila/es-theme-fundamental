@@ -1,0 +1,154 @@
+<!--
+theme name:		Fundamental
+version:		1.0
+author:			Grila
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<path>./_inc/images/system_bg.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.7421875 0.9515</pos>
+		</helpsystem>
+	
+	</view>
+
+	<view name="basic">
+
+	</view>
+
+	<view name="detailed, video">
+		
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./_inc/images/detail_bg.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.4963541666666667 0.9515</pos>
+		</helpsystem>
+
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.125 0.0694444444444444</pos>
+			<maxSize>0.234375 0.1111111111111111</maxSize>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>387297</selectorColor>
+			<selectedColor>efefef</selectedColor>
+			<primaryColor>efefef</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<pos>0 0.1388888888888889</pos>
+			<size>0.25 0.8472222222222222</size>
+			<fontSize>0.0333333333333333</fontSize>
+			<horizontalMargin>0.0078125</horizontalMargin>
+			<!-- <lineSpacing>1.065</lineSpacing> -->
+		</textlist>
+		
+		<text name="system_title" extra="true">
+			<pos>0.28125 0.0138888888888889</pos>
+			<size>0.6875 0.0694444444444444</size>
+			<text>Super Nintendo Entertainment System</text>
+			<color>387297</color>
+			<fontPath>./_inc/fonts/font.otf</fontPath>
+			<fontSize>0.0694444444444444</fontSize>
+			<alignment>left</alignment>
+		</text>
+		
+		<!-- <image name="img_vid_bg" extra="true"> -->
+			<!-- <pos>0.28125 0.1388888888888889</pos> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <size>0.34375 0.7777777777777778</size> -->
+			<!-- <path>./_inc/images/description_bg.png</path> -->
+		<!-- </image> -->
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
+			<color>000000</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<size>0 0</size>
+			<pos>2 2</pos>
+		</text>
+		
+		<image name="description_bg" extra="true">
+			<pos>0.6458333333333333 0.1388888888888889</pos>
+			<origin>0 0</origin>
+			<size>0.3229166666666667 0.7777777777777778</size>
+			<path>./_inc/images/description_bg.png</path>
+		</image>
+		
+		<text name="md_description">
+			<pos>0.6510416666666667 0.1481481481481481</pos>
+			<size>0.3125 0.7685185185185185</size>
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+			<lineSpacing>1.065</lineSpacing>
+		</text>
+
+	</view>
+	
+	<view name="detailed">
+	
+		<image name="img_vid_bg" extra="true">
+			<pos>0.28125 0.1388888888888889</pos>
+			<origin>0 0</origin>
+			<size>0.34375 0.7777777777777778</size>
+			<path>./_inc/images/description_bg.png</path>
+		</image>
+	
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.453125 0.3703703703703704</pos>
+			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
+		</image>
+	
+	</view>
+	
+	<view name="video">
+	
+		<image name="img_vid_bg" extra="true">
+			<pos>0.28125 0.1388888888888889</pos>
+			<origin>0 0</origin>
+			<size>0.34375 0.7777777777777778</size>
+			<path>./_inc/images/description_bg.png</path>
+		</image>
+
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.453125 0.3703703703703704</pos>
+			<size>0.3333333333333333 0.4444444444444444</size>
+			<!-- <default></default> -->
+			<!-- <delay>0</delay> -->
+			<!-- <showSnapshotNoVideo>false</showSnapshotNoVideo> -->
+			<!-- <showSnapshotDelay>true</showSnapshotDelay> -->
+		</video>
+	
+	</view>
+	
+	<view name="system, basic, detailed, video">
+
+		<helpsystem name="help">
+			<textColor>efefef</textColor>
+			<iconColor>efefef</iconColor>
+		</helpsystem>
+
+	</view>
+
+</theme>
