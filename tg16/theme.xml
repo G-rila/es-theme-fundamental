@@ -11,4 +11,16 @@
 
 	</view>
 	
+	<view name="detailed, video">
+	
+		<text name="system_title" extra="true">
+			<text>NEC TurboGrafx-16</text>
+		</text>
+		
+		<text name="system_release_date" extra="true">
+			<text>1989</text>
+		</text>
+	
+	</view>
+	
 </theme>

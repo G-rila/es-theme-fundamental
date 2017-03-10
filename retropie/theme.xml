@@ -11,4 +11,16 @@
 
 	</view>
 	
+	<view name="detailed, video">
+	
+		<text name="system_title" extra="true">
+			<text>RetroPie</text>
+		</text>
+		
+		<text name="system_release_date" extra="true">
+			<text>Options Menu</text>
+		</text>
+	
+	</view>
+	
 </theme>

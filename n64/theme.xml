@@ -11,4 +11,16 @@
 
 	</view>
 	
+	<view name="detailed, video">
+	
+		<text name="system_title" extra="true">
+			<text>Nintendo 64</text>
+		</text>
+		
+		<text name="system_release_date" extra="true">
+			<text>1996</text>
+		</text>
+	
+	</view>
+	
 </theme>

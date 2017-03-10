@@ -2,7 +2,7 @@
 theme name:		Fundamental
 version:		1.0
 author:			Grila
-license:		creative commons CC-BY-NC-SA
+license:		
 -->
 
 <theme>
@@ -62,19 +62,28 @@ license:		creative commons CC-BY-NC-SA
 		<text name="system_title" extra="true">
 			<pos>0.28125 0.0138888888888889</pos>
 			<size>0.6875 0.0694444444444444</size>
-			<text>Super Nintendo Entertainment System</text>
 			<color>387297</color>
 			<fontPath>./_inc/fonts/font.otf</fontPath>
-			<fontSize>0.0694444444444444</fontSize>
+			<fontSize>0.0833333333333333</fontSize>
 			<alignment>left</alignment>
 		</text>
 		
-		<image name="img_vid_bg" extra="true">
-			<pos>0.28125 0.1388888888888889</pos>
-			<origin>0 0</origin>
-			<size>0.34375 0.7777777777777778</size>
-			<path>./_inc/images/description_bg.png</path>
-		</image>
+		<text name="system_release_date" extra="true">
+			<pos>0.28125 0.0833333333333333</pos>
+			<size>0.6875 0.0416666666666667</size>
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/font.otf</fontPath>
+			<fontSize>0.0509259259259259</fontSize>
+			<alignment>left</alignment>
+		</text>
+		
+		<!-- Removed for now, not sure how I like the way it looks -->
+		<!-- <image name="img_vid_bg" extra="true"> -->
+			<!-- <pos>0.28125 0.1388888888888889</pos> -->
+			<!-- <origin>0 0</origin> -->
+			<!-- <size>0.34375 0.7777777777777778</size> -->
+			<!-- <path>./_inc/images/description_bg.png</path> -->
+		<!-- </image> -->
 		
 		<image name="description_bg" extra="true">
 			<pos>0.6458333333333333 0.1388888888888889</pos>
