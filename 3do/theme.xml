@@ -14,9 +14,9 @@
 	<view name="detailed, video">
 	
 		<text name="system_title" extra="true">
-			<text>NEC TurboGrafx-16</text>
+			<text>3DO Interactive Multiplayer</text>
 		</text>
-	
+
 	</view>
 	
 </theme>

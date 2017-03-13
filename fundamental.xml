@@ -67,15 +67,6 @@ author:			Grila
 			<alignment>left</alignment>
 		</text>
 		
-		<text name="system_release_date" extra="true">
-			<pos>0.28125 0.0833333333333333</pos>
-			<size>0.3151041666666667 0.0416666666666667</size>
-			<color>efefef</color>
-			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
-			<fontSize>0.0416666666666667</fontSize>
-			<alignment>left</alignment>
-		</text>
-		
 		<image name="description_bg" extra="true">
 			<origin>0 0</origin>
 			<pos>0.28125 0.1527777777777778</pos>
@@ -90,19 +81,12 @@ author:			Grila
 			<lineSpacing>1.079</lineSpacing>
 		</text>
 		
-		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
+		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_playcount">
 			<color>efefef</color>
 			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
 		</text>
 		
-		<text name="md_playcount">
-			<color>efefef</color>
-			<lineSpacing>1.2</lineSpacing>
-			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
-			<fontSize>0.0416666666666667</fontSize>
-		</text>
-		
-		<text name="md_genre, md_players, md_developer, md_publisher">
+		<text name="md_genre, md_players, md_developer, md_publisher, md_playcount">
 			<color>efefef</color>
 			<size>0 0</size>
 		</text>
@@ -122,12 +106,8 @@ author:			Grila
 		</rating>
 		
 		<text name="md_lbl_playcount">
-			<pos>0.6354166666666667 0.0833333333333333</pos>
+			<pos>0.8645833333333333 0.6666666666666667</pos>
 			<forceUppercase>1</forceUppercase>
-			<lineSpacing>1.2</lineSpacing>
-			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
-			<fontSize>0.0416666666666667</fontSize>
-			<color>efefef</color>
 		</text>
 		
 		<text name="md_lbl_lastplayed">

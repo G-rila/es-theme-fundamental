@@ -16,10 +16,6 @@
 		<text name="system_title" extra="true">
 			<text>Sega Master System</text>
 		</text>
-		
-		<text name="system_release_date" extra="true">
-			<text>1986</text>
-		</text>
 	
 	</view>
 	

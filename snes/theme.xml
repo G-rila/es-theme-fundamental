@@ -16,10 +16,6 @@
 		<text name="system_title" extra="true">
 			<text>Super Nintendo Entertainment System</text>
 		</text>
-		
-		<text name="system_release_date" extra="true">
-			<text>1991</text>
-		</text>
 	
 	</view>
 	

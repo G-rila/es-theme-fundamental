@@ -16,10 +16,6 @@
 		<text name="system_title" extra="true">
 			<text>Sega Mega Drive</text>
 		</text>
-		
-		<text name="system_release_date" extra="true">
-			<text>1989</text>
-		</text>
 	
 	</view>
 	

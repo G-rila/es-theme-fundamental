@@ -16,10 +16,6 @@
 		<text name="system_title" extra="true">
 			<text>NEC PC Engine</text>
 		</text>
-		
-		<text name="system_release_date" extra="true">
-			<text>1987</text>
-		</text>
 	
 	</view>
 	
