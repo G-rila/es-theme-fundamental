@@ -33,7 +33,7 @@ author:			Grila
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./_inc/images/detail_bg.png</path>
+			<path>./_inc/images/detail_vid_bg.png</path>
 		</image>
 		
 		<helpsystem name="help">
@@ -76,25 +76,32 @@ author:			Grila
 			<alignment>left</alignment>
 		</text>
 		
+		<image name="description_bg" extra="true">
+			<origin>0 0</origin>
+			<pos>0.28125 0.1527777777777778</pos>
+			<size>0.3229166666666667 0.7777777777777778</size>
+			<path>./_inc/images/description_bg.png</path>
+		</image>
+		
 		<text name="md_description">
-			<pos>0.28125 0.625</pos>
-			<size>0.6875 0.2916666666666667</size>
+			<pos>0.2890625 0.1666666666666667</pos>
+			<size>0.3072916666666667 0.7638888888888889</size>
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/Oswald-ExtraLight.ttf</fontPath>
+			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
 			<fontSize>0.0277777777777778</fontSize>
 			<lineSpacing>1.065</lineSpacing>
 		</text>
 		
 		<text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_playcount, md_genre, md_players, md_developer, md_publisher">
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
 			<fontSize>0.0333333333333333</fontSize>
-			<size>0.078125 0.0296296296296296</size>
+			<size>0 0</size>
 		</text>
 		
 		<datetime name="md_lastplayed, md_releasedate">
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
 			<fontSize>0.0333333333333333</fontSize>
 		</datetime>
 		
