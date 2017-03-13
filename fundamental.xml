@@ -69,7 +69,7 @@ author:			Grila
 		
 		<text name="system_release_date" extra="true">
 			<pos>0.28125 0.0833333333333333</pos>
-			<size>0.6875 0.0416666666666667</size>
+			<size>0.3151041666666667 0.0416666666666667</size>
 			<color>efefef</color>
 			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
 			<fontSize>0.0416666666666667</fontSize>
@@ -87,82 +87,77 @@ author:			Grila
 			<pos>0.2890625 0.1666666666666667</pos>
 			<size>0.3072916666666667 0.7638888888888889</size>
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
-			<fontSize>0.0277777777777778</fontSize>
-			<lineSpacing>1.065</lineSpacing>
+			<lineSpacing>1.079</lineSpacing>
 		</text>
 		
-		<text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_playcount, md_genre, md_players, md_developer, md_publisher">
+		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
-			<fontSize>0.0333333333333333</fontSize>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+		</text>
+		
+		<text name="md_playcount">
+			<color>efefef</color>
+			<lineSpacing>1.2</lineSpacing>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontSize>0.0416666666666667</fontSize>
+		</text>
+		
+		<text name="md_genre, md_players, md_developer, md_publisher">
+			<color>efefef</color>
 			<size>0 0</size>
 		</text>
 		
 		<datetime name="md_lastplayed, md_releasedate">
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/OpenSans-Light.ttf</fontPath>
-			<fontSize>0.0333333333333333</fontSize>
 		</datetime>
 		
 		<text name="md_lbl_rating">
-			<pos>0.28125 0.1527777777777778</pos>
+			<pos>2 2</pos>
 		</text>
 		<rating name="md_rating">
-			<pos>0.359375 0.1527777777777778</pos>
-			<size>0 0.0333333333333333</size>
+			<pos>0.8515625 0.0833333333333333</pos>
+			<size>0 0.0416666666666667</size>
 			<filledPath>./_inc/images/heart_filled.png</filledPath>
 			<unfilledPath>./_inc/images/heart_empty.png</unfilledPath>
 		</rating>
 		
-		<text name="md_lbl_releasedate">
-			<pos>0.28125 0.212037037037037</pos>
+		<text name="md_lbl_playcount">
+			<pos>0.6354166666666667 0.0833333333333333</pos>
+			<forceUppercase>1</forceUppercase>
+			<lineSpacing>1.2</lineSpacing>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontSize>0.0416666666666667</fontSize>
+			<color>efefef</color>
 		</text>
-		<datetime name="md_releasedate">
-		</datetime>
 		
 		<text name="md_lbl_lastplayed">
-			<pos>0.28125 0.2712962962962963</pos>
-			<size>0 0</size>
-		</text>
-		<datetime name="md_lastplayed">
-			<pos>0.359375 0.2712962962962963</pos>
-			<size>0 0.0333333333333333</size>
-		</datetime>
-		
-		<text name="md_lbl_playcount">
-			<pos>0.28125 0.3305555555555556</pos>
-		</text>
-		<text name="md_playcount">
-			<pos>0.6354166666666667 0.7361111111111111</pos>
+			<pos>0.6354166666666667 0.6666666666666667</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
 		
 		<text name="md_lbl_genre">
-			<pos>0.6354166666666667 0.7916666666666667</pos>
-		</text>
-		<text name="md_genre">
-			<pos>0.6354166666666667 0.8194444444444444</pos>
+			<pos>0.6354166666666667 0.7106481481481481</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
 		
 		<text name="md_lbl_players">
-			<pos>0.6354166666666667 0.875</pos>
+			<pos>0.6354166666666667 0.7546296296296296</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
-		<text name="md_players">
-			<pos>0.6354166666666667 0.9027777777777778</pos>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.6354166666666667 0.7986111111111111</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
 		
 		<text name="md_lbl_developer">
-			<pos>0.8020833333333333 0.7916666666666667</pos>
-		</text>
-		<text name="md_developer">
-			<pos>0.8020833333333333 0.8194444444444444</pos>
+			<pos>0.6354166666666667 0.8425925925925926</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
 		
 		<text name="md_lbl_publisher">
-			<pos>0.8020833333333333 0.875</pos>
-		</text>
-		<text name="md_publisher">
-			<pos>0.8020833333333333 0.9027777777777778</pos>
+			<pos>0.6354166666666667 0.8865740740740741</pos>
+			<forceUppercase>1</forceUppercase>
 		</text>
 
 	</view>
@@ -171,7 +166,7 @@ author:			Grila
 		
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
-			<pos>0.8020833333333333 0.375</pos>
+			<pos>0.8020833333333333 0.3888888888888889</pos>
 			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 		</image>
 	
@@ -181,7 +176,7 @@ author:			Grila
 		
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
-			<pos>0.8020833333333333 0.375</pos>
+			<pos>0.8020833333333333 0.3888888888888889</pos>
 			<size>0.3333333333333333 0.4444444444444444</size>
 			<!-- <default></default> -->
 			<!-- <delay>0</delay> -->
