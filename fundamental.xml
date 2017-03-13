@@ -117,8 +117,8 @@ author:			Grila
 		<rating name="md_rating">
 			<pos>0.8515625 0.0833333333333333</pos>
 			<size>0 0.0416666666666667</size>
-			<filledPath>./_inc/images/heart_filled.png</filledPath>
-			<unfilledPath>./_inc/images/heart_empty.png</unfilledPath>
+			<filledPath>./_inc/images/star_filled.png</filledPath>
+			<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
 		</rating>
 		
 		<text name="md_lbl_playcount">
