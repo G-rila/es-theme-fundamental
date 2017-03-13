@@ -51,7 +51,7 @@ author:			Grila
 			<selectedColor>efefef</selectedColor>
 			<primaryColor>efefef</primaryColor>
 			<secondaryColor>888888</secondaryColor>
-			<fontPath>./_inc/fonts/font.otf</fontPath>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
 			<pos>0 0.1388888888888889</pos>
 			<size>0.25 0.8472222222222222</size>
 			<fontSize>0.0333333333333333</fontSize>
@@ -62,7 +62,7 @@ author:			Grila
 			<pos>0.28125 0.0138888888888889</pos>
 			<size>0.6875 0.0694444444444444</size>
 			<color>387297</color>
-			<fontPath>./_inc/fonts/font.otf</fontPath>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
 			<fontSize>0.0833333333333333</fontSize>
 			<alignment>left</alignment>
 		</text>
@@ -71,60 +71,115 @@ author:			Grila
 			<pos>0.28125 0.0833333333333333</pos>
 			<size>0.6875 0.0416666666666667</size>
 			<color>efefef</color>
-			<fontPath>./_inc/fonts/font.otf</fontPath>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
 			<fontSize>0.0416666666666667</fontSize>
 			<alignment>left</alignment>
 		</text>
 		
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
-			<color>000000</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-			<fontSize>0.01</fontSize>
+		<text name="md_description">
+			<pos>0.28125 0.625</pos>
+			<size>0.6875 0.2916666666666667</size>
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/Oswald-ExtraLight.ttf</fontPath>
+			<fontSize>0.0277777777777778</fontSize>
+			<lineSpacing>1.065</lineSpacing>
+		</text>
+		
+		<text name="md_lbl_lastplayed, md_lbl_playcount, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_playcount, md_genre, md_players, md_developer, md_publisher">
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+			<size>0.078125 0.0296296296296296</size>
+		</text>
+		
+		<datetime name="md_lastplayed, md_releasedate">
+			<color>efefef</color>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+		</datetime>
+		
+		<text name="md_lbl_rating">
+			<pos>0.28125 0.1527777777777778</pos>
+		</text>
+		<rating name="md_rating">
+			<pos>0.359375 0.1527777777777778</pos>
+			<size>0 0.0333333333333333</size>
+			<filledPath>./_inc/images/heart_filled.png</filledPath>
+			<unfilledPath>./_inc/images/heart_empty.png</unfilledPath>
+		</rating>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.28125 0.212037037037037</pos>
+		</text>
+		<datetime name="md_releasedate">
+		</datetime>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.28125 0.2712962962962963</pos>
 			<size>0 0</size>
-			<pos>2 2</pos>
+		</text>
+		<datetime name="md_lastplayed">
+			<pos>0.359375 0.2712962962962963</pos>
+			<size>0 0.0333333333333333</size>
+		</datetime>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.28125 0.3305555555555556</pos>
+		</text>
+		<text name="md_playcount">
+			<pos>0.6354166666666667 0.7361111111111111</pos>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<pos>0.6354166666666667 0.7916666666666667</pos>
+		</text>
+		<text name="md_genre">
+			<pos>0.6354166666666667 0.8194444444444444</pos>
+		</text>
+		
+		<text name="md_lbl_players">
+			<pos>0.6354166666666667 0.875</pos>
+		</text>
+		<text name="md_players">
+			<pos>0.6354166666666667 0.9027777777777778</pos>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>0.8020833333333333 0.7916666666666667</pos>
+		</text>
+		<text name="md_developer">
+			<pos>0.8020833333333333 0.8194444444444444</pos>
+		</text>
+		
+		<text name="md_lbl_publisher">
+			<pos>0.8020833333333333 0.875</pos>
+		</text>
+		<text name="md_publisher">
+			<pos>0.8020833333333333 0.9027777777777778</pos>
 		</text>
 
 	</view>
 	
 	<view name="detailed">
-	
-		<text name="md_description">
-			<pos>0.6510416666666667 0.1481481481481481</pos>
-			<size>0.3125 0.7685185185185185</size>
-			<color>efefef</color>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
-			<fontSize>0.0333333333333333</fontSize>
-			<lineSpacing>1.065</lineSpacing>
-		</text>
 		
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
-			<pos>0.453125 0.3703703703703704</pos>
+			<pos>0.8020833333333333 0.375</pos>
 			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 		</image>
 	
 	</view>
 	
 	<view name="video">
-
-		<text name="md_description">
-			<pos>0.28125 0.1527777777777778</pos>
-			<size>0.3385416666666667 0.7638888888888889</size>
-			<color>efefef</color>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
-			<fontSize>0.0333333333333333</fontSize>
-			<lineSpacing>1.065</lineSpacing>
-		</text>
 		
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.8020833333333333 0.375</pos>
 			<size>0.3333333333333333 0.4444444444444444</size>
-			<default></default>
-			<delay>0</delay>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<showSnapshotDelay>true</showSnapshotDelay>
+			<!-- <default></default> -->
+			<!-- <delay>0</delay> -->
+			<!-- <showSnapshotNoVideo>false</showSnapshotNoVideo> -->
+			<!-- <showSnapshotDelay>true</showSnapshotDelay> -->
 		</video>
 	
 	</view>
