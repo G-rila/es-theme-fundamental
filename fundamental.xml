@@ -24,7 +24,35 @@ author:			Grila
 	</view>
 
 	<view name="basic">
-		<!-- To Do -->
+		
+		<image name="background">
+			<path>./_inc/images/basic_bg.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.4963541666666667 0.9515</pos>
+		</helpsystem>
+		
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.0555555555555556</pos>
+			<maxSize>0.390625 0.0833333333333333</maxSize>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>387297</selectorColor>
+			<selectedColor>efefef</selectedColor>
+			<primaryColor>efefef</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/BebasNeue.otf</fontPath>
+			<pos>0.296875 0.1111111111111111</pos>
+			<size>0.40625 0.8333333333333333</size>
+			<fontSize>0.0333333333333333</fontSize>
+		</textlist>
+		
 	</view>
 
 	<view name="detailed, video">
