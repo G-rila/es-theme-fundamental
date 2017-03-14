@@ -11,12 +11,4 @@
 
 	</view>
 	
-	<view name="detailed, video">
-	
-		<text name="system_title" extra="true">
-			<text>Sega Master System</text>
-		</text>
-	
-	</view>
-	
 </theme>
