@@ -8,6 +8,18 @@
 		<image name="logo">
 			<path>./system.svg</path>
 		</image>
+		
+		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_genre, md_players, md_developer, md_publisher, md_playcount">
+			<pos>2 2</pos>
+		</text>
+				
+		<datetime name="md_lastplayed, md_releasedate">
+			<pos>2 2</pos>
+		</datetime>
+		
+		<rating name="md_rating">
+			<pos>2 2</pos>
+		</rating>
 
 	</view>
 	
