@@ -171,24 +171,28 @@ author:			Grila
 	
 	</view>
 	
-	<view name="video">
-		
+	<feature supported="video">
+
+		<view name="video">
+	
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.8020833333333333 0.2916666666666667</pos>
-			<size>0.3333333333333333 0.4444444444444444</size>
+			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 			<default></default>
 			<delay>0</delay>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
 		
 		<image name="md_marquee">
 			<pos>2 2</pos>
 		</image>
 	
-	</view>
-	
+		</view>
+		
+	</feature>
+		
 	<view name="system, basic, detailed, video">
 
 		<helpsystem name="help">
