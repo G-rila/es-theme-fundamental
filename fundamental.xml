@@ -180,7 +180,7 @@ author:			Grila
 			<pos>0.8020833333333333 0.2916666666666667</pos>
 			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 			<default></default>
-			<delay>0</delay>
+			<delay>0.3</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
