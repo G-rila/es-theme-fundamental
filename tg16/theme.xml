@@ -1,14 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (tg16)
+version:		2.0
+author:			Grila
+-->
+
 <theme>
-	
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 	
-	<view name="system, basic, detailed, video">
-
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./system.svg</path>
+			<path>./logo.svg</path>
 		</image>
-
 	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The TurboGrafx-16 Entertainment SuperSystem, known in Japan and France as the PC Engine, is a home video game console jointly developed by Hudson Soft and NEC Home Electronics, released in Japan on October 30, 1987 and in the United States on August 29, 1989. It also had a limited release in the United Kingdom and Spain in 1990, known as simply TurboGrafx and based on the American model, whilst the Japanese model was imported and distributed in France in 1989. It was the first console released in the 16-bit era, albeit still utilizing an 8-bit CPU. Originally intended to compete with the Nintendo Entertainment System (NES), it ended up competing with the Sega Genesis, and later on the Super Nintendo Entertainment System (SNES).</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: October 30, 1987</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Hudson Soft</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: NEC</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Two Hudson Soft HuC6280A</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 8 KB RAM plus 64 KB video RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: HuC6260 VCE \ HuC6270A VDC</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 6 PSG audio channels</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 256x224 up to 565x242</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: HuCard</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 1</text>
+			</text>
+		</view>
+	</feature>
 	
 </theme>

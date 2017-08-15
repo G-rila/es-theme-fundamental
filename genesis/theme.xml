@@ -1,14 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (genesis)
+version:		2.0
+author:			Grila
+-->
+
 <theme>
-	
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 	
-	<view name="system, basic, detailed, video">
-
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./system.svg</path>
+			<path>./logo.svg</path>
 		</image>
-
 	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Sega Genesis, known as the Mega Drive in most regions outside of North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe, by Ozisoft in Australasia, and by Tectoy in Brazil. In South Korea, the systems were distributed by Samsung and were known as the Super Gam*Boy, and later the Super Aladdin Boy.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: August 14, 1989</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sega</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Sega</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000, Zilog Z80 co-processor</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 64 KB main RAM and 64 KB video RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Yahama YM7101 VDP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Yamaha YM2612, Texas Instruments SN76489A</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 256x224, 256x448, 320x224, 320x448</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 2</text>
+			</text>
+		</view>
+	</feature>
 	
 </theme>

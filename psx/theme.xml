@@ -1,14 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (psx)
+version:		2.0
+author:			Grila
+-->
+
 <theme>
-	
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 	
-	<view name="system, basic, detailed, video">
-
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./system.svg</path>
+			<path>./logo.svg</path>
 		</image>
-
 	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The PlayStation (officially abbreviated to PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released in Japan on December 3, 1994, in North America on September 9, 1995, in Europe on September 29, 1995, in Australasia on November 15, 1995 and in Korea in 1996. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: December 3, 1994</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sony Computer Entertainment</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Sony Computer Entertainment</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: MIPS R3000A compatible 32-bit RISC CPU</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 2 MB RAM, 1 MB video RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 32-bit Sony GPU</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 16-bit Sony SPU, 24 channel ADPCM</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 256x224 to 640x480</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: CD-ROM</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 2</text>
+			</text>
+		</view>
+	</feature>
 	
 </theme>

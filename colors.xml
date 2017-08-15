@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<variables>
+		<mainThemeColor>28405A</mainThemeColor>
+		<titleTextColor>387297</titleTextColor>
+		<metaTextColor>EFEFEF</metaTextColor>
+		<!-- <mainThemeColor>333333</mainThemeColor> -->
+		<!-- <titleTextColor>777777</titleTextColor> -->
+		<!-- <metaTextColor>EFEFEF</metaTextColor> -->
+	</variables>
+</theme>

@@ -1,14 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (snes)
+version:		2.0
+author:			Grila
+-->
+
 <theme>
-	
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 	
-	<view name="system, basic, detailed, video">
-
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./system.svg</path>
+			<path>./logo.svg</path>
 		</image>
-
 	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Super Nintendo Entertainment System (also known as the Super NES, SNES or Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America. In Japan, the system is called the Super Famicom, officially adopting the abbreviated name of its predecessor, the Family Computer, or SFC for short. In South Korea, it is known as the Super Comboy and was distributed by Hyundai Electronics. Although each version is essentially the same, several forms of regional lockout prevent the different versions from being compatible with one another.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 21, 1990</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Nintendo</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Ricoh 5A22</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 128 KB DRAM, 64 KB SRAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 16 bit PPU</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Sony SPC700 and Sony DSP</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 512x478 max</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 2</text>
+			</text>
+		</view>
+	</feature>
 	
 </theme>

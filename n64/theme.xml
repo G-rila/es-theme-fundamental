@@ -1,14 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (n64)
+version:		2.0
+author:			Grila
+-->
+
 <theme>
-	
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 	
-	<view name="system, basic, detailed, video">
-
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./system.svg</path>
+			<path>./logo.svg</path>
 		</image>
-
 	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Nintendo 64 is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. It was the last major home console to use the cartridge as its primary storage format until Nintendo's seventh console, the Nintendo Switch, released in 2017. While the Nintendo 64 was succeeded by Nintendo's MiniDVD-based GameCube in September 2001, the consoles remained available until the system was retired in late 2003.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: June 23, 1996</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo IRD</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Nintendo, Foxconn</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 64-bit NEC VR4300</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 4 MB RDRAM expandable to 8 MB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: Up to 480i (576i PAL)</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 4</text>
+			</text>
+		</view>
+	</feature>
 	
 </theme>

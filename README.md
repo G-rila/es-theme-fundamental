@@ -1,2 +1,2 @@
-# Fundamental, an EmulationStation theme with video support
-Fundamental is a EmulationStation theme targeted for use on the Raspberry Pi. The design is based on my BigBox theme by the same name (https://forums.launchbox-app.com/files/file/265-fundamental-theme/). It supports video snaps on RetroPie thanks to the work of fieldofcows (https://github.com/fieldofcows). You can read more about his ongoing implementation on the RetroPie forums.
+# Fundamental, an EmulationStation theme by Grila
+Fundamental is a EmulationStation theme targeted for use on the Raspberry Pi. The design is based on my BigBox theme by the same name (https://forums.launchbox-app.com/files/file/265-fundamental-theme/). This theme supports all the new features of EmulationStation that have been added into the RetroPie build (video snaps, themeable system carousel, etc.).
