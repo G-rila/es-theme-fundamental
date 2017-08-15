@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (mame)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered "a nice side effect". The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: Varies</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Varies</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Varies</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Varies</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: Varies</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Varies</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Varies</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: Varies</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Varies</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: Varies</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

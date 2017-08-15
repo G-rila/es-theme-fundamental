@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (gba)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Game Boy Advance (abbreviated as GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in mainland China on June 8, 2004 (iQue Player). Nintendo's competitors in the handheld market at the time were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: June 11, 2001</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Nintendo</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: ARM7TDMi and Z80 co-processor</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 32 KB + 96 KB VRAM (CPU), 256 KB DRAM (ex CPU)</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Custom 2D core</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Dual 8-bit DAC plus all Gameboy legacy channels</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 240x160</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: N/A</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

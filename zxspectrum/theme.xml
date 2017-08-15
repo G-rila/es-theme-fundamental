@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (zxspectrum)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The ZX Spectrum is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd. The Spectrum was ultimately released as eight different models, ranging from the entry level model with 16 kB RAM released in 1982 to the ZX Spectrum +3 with 128 kB RAM and built in floppy disk drivee. The Spectrum was among the first mainstream audience home computers in the UK, similar in significance to the Commodore 64 in the USA. The Commodore 64, BBC Microcomputer and later the Amstrad CPC range were major rivals to the Spectrum in the UK market during the early 1980s.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: April 21, 1982</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sinclair Research</text>
+			</text>
+			
+			<text name="manufacturer" extra="true">
+				<text>Manufacturer: Sinclair Research</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80A</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 16, 48, or 128 KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: N/A</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 1-channel</text>
+			</text>
+			
+			<text name="display" extra="true">
+				<text>Display: 256x192 graphics and 32x24 text</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cassette Tape</text>
+			</text>
+			
+			<text name="max_controllers" extra="true">
+				<text>Max Controllers: 1</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
