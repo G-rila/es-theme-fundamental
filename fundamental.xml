@@ -26,22 +26,21 @@ author:			Grila
 			<fontSize>0.0333333333333333</fontSize>
 		</helpsystem>
 	</view>
-	
+
 	<view name="system">
 		<helpsystem name="help">
 			<pos>0.015625 0.962962962962963</pos>
 		</helpsystem>
 	</view>
-	
+
 	<feature supported="carousel">
 		<view name="system">
 			<image name="ui" extra="true">
-				<path>./core/images/system_carousel.png</path>
+				<path>./core/images/carousel_detailed_video_view.png</path>
 				<origin>0 0</origin>
 				<pos>0 0</pos>
 				<size>1 1</size>
 				<color>${mainThemeColor}</color>
-				<zIndex>1</zIndex>
 			</image>
 		
 			<helpsystem name="help">
@@ -53,10 +52,9 @@ author:			Grila
 				<pos>0 0</pos>
 				<size>0.25 1</size>
 				<color>00000000</color>
-				<logoScale>1.6</logoScale>
+				<logoScale>1.3</logoScale>
 				<logoSize>0.125 0.160</logoSize>
 				<maxLogoCount>5</maxLogoCount>
-				<zIndex>2</zIndex>
 			</carousel>
 			
 			<text name="console_name" extra="true">
@@ -67,7 +65,6 @@ author:			Grila
 				<size>0.71875 0.0648148148148148</size>
 				<alignment>left</alignment>
 				<color>${titleTextColor}</color>
-				<zIndex>2</zIndex>
 			</text>
 			
 			<text name="systemInfo">
@@ -75,138 +72,95 @@ author:			Grila
 				<fontSize>0.0333333333333333</fontSize>
 				<pos>0.265625 0.0925925925925926</pos>
 				<size>0.71875 0.0277777777777778</size>
-				<backgroundColor>FFFFFF00</backgroundColor>
+				<backgroundColor>00000000</backgroundColor>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
-				<zIndex>2</zIndex>
 			</text>
 			
 			<image name="console" extra="true">
 				<origin>0.5 0.5</origin>
-				<pos>0.8177083333333333 0.3703703703703704</pos>
+				<pos>0.8072916666666667 0.3888888888888889</pos>
 				<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
-				<zIndex>3</zIndex>
 			</image>
 			
 			<text name="console_notes" extra="true">
 				<fontPath>./core/fonts/segoeuil.ttf</fontPath>
 				<fontSize>0.0277777777777778</fontSize>
-				<pos>0.265625 0.6203703703703704</pos>	
+				<pos>0.265625 0.6388888888888889</pos>	
 				<size>0.71875 0</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
-				<lineSpacing>1.2</lineSpacing>
-				<zIndex>2</zIndex>
+				<lineSpacing>1.17</lineSpacing>
 			</text>
 			
 			<text name="release_date" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.1481481481481481</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.2037037037037037</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="developer" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.1944444444444444</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.2592592592592593</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
-			</text>
-			
-			<text name="manufacturer" extra="true">
-				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
-				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.2407407407407407</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
-				<alignment>left</alignment>
-				<color>${metaTextColor}</color>
-				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="cpu" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.287037037037037</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.3148148148148148</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="memory" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.3333333333333333</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.3703703703703704</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="graphics" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.3796296296296296</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.4259259259259259</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="sound" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.4259259259259259</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.4814814814814815</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
-			</text>
-			
-			<text name="display" extra="true">
-				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
-				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.4722222222222222</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
-				<alignment>left</alignment>
-				<color>${metaTextColor}</color>
-				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 			
 			<text name="media" extra="true">
 				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.5185185185185185</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
+				<pos>0.265625 0.537037037037037</pos>	
+				<size>0.3489583333333333 0.037037037037037</size>
 				<alignment>left</alignment>
 				<color>${metaTextColor}</color>
 				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
-			</text>
-			
-			<text name="max_controllers" extra="true">
-				<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
-				<fontSize>0.0333333333333333</fontSize>
-				<pos>0.265625 0.5648148148148148</pos>	
-				<size>0.3697916666666667 0.0277777777777778</size>
-				<alignment>left</alignment>
-				<color>${metaTextColor}</color>
-				<lineSpacing>1.5</lineSpacing>
-				<zIndex>3</zIndex>
 			</text>
 		</view>
 	</feature>
@@ -218,7 +172,6 @@ author:			Grila
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<color>${mainThemeColor}</color>
-			<zIndex>1</zIndex>
 		</image>
 	
 		<helpsystem name="help">
@@ -227,9 +180,8 @@ author:			Grila
 		
 		<image name="logo">
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.0972222222222222</pos>
-			<maxSize>0.15625 0.1388888888888889</maxSize>
-			<zIndex>2</zIndex>
+			<pos>0.5 0.1203703703703704</pos>
+			<maxSize>0.4791666666666667 0.1481481481481481</maxSize>
 		</image>
 		
 		<textlist name="gamelist">
@@ -238,13 +190,22 @@ author:			Grila
 			<primaryColor>${metaTextColor}</primaryColor>
 			<secondaryColor>${metaTextColor}</secondaryColor>
 			<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
-			<pos>0.25 0.1666666666666667</pos>
-			<size>0.5 0.7685185185185185</size>
+			<pos>0.25 0.212962962962963</pos>
+			<size>0.5 0.7222222222222222</size>
 			<fontSize>0.0333333333333333</fontSize>
 		</textlist>
 	</view>
 	
 	<view name="detailed, video">
+		<image name="ui" extra="true">
+			<path>./core/images/carousel_detailed_video_view.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>${mainThemeColor}</color>
+			<zIndex>1</zIndex>
+		</image>
+		
 		<helpsystem name="help">
 			<pos>0.265625 0.962962962962963</pos>
 		</helpsystem>
@@ -255,7 +216,7 @@ author:			Grila
 			<primaryColor>${metaTextColor}</primaryColor>
 			<secondaryColor>${metaTextColor}</secondaryColor>
 			<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
-			<pos>0 0.0185185185185185</pos>
+			<pos>0 0.0277777777777778</pos>
 			<size>0.25 0.9444444444444444</size>
 			<fontSize>0.0333333333333333</fontSize>
 			<horizontalMargin>0.0026041666666667</horizontalMargin>
@@ -271,12 +232,18 @@ author:			Grila
 			<pos>2 2</pos>
 		</text>
 		
-		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_genre, md_players, md_developer, md_publisher, md_playcount">
+		<text name="md_lbl_lastplayed, md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_playcount">
 			<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
 			<fontSize>0.0333333333333333</fontSize>
 			<alignment>left</alignment>
 			<color>${metaTextColor}</color>
-			<size>0 0</size>
+		</text>
+		
+		<text name="md_genre, md_players, md_developer, md_publisher, md_playcount">
+			<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+			<fontSize>0.0333333333333333</fontSize>
+			<alignment>left</alignment>
+			<color>${metaTextColor}</color>
 		</text>
 		
 		<datetime name="md_lastplayed, md_releasedate">
@@ -288,89 +255,104 @@ author:			Grila
 		<text name="md_description">
 			<fontPath>./core/fonts/segoeuil.ttf</fontPath>
 			<fontSize>0.0277777777777778</fontSize>
-			<pos>0.265625 0.3611111111111111</pos>	
-			<size>0.3697916666666667 0.5740740740740741</size>
+			<pos>0.265625 0.6388888888888889</pos>	
+			<size>0.71875 0.2962962962962963</size>
 			<alignment>left</alignment>
 			<color>${metaTextColor}</color>
-			<lineSpacing>1.21</lineSpacing>
-		</text>
-		
-		<text name="md_lbl_lastplayed">
-			<pos>0.265625 0.0648148148148148</pos>
-		</text>
-		
-		<text name="md_lbl_playcount">
-			<pos>0.265625 0.0185185185185185</pos>
+			<lineSpacing>1.17</lineSpacing>
 		</text>
 		
 		<text name="md_lbl_releasedate">
-			<pos>0.265625 0.1111111111111111</pos>
+			<pos>0.265625 0.2037037037037037</pos>
+			<size>0.0677083333333333 0.037037037037037</size>
 		</text>
 		
+		<datetime name="md_releasedate">
+			<pos>0.3333333333333333 0.2037037037037037</pos>
+			<size>0.28125 0.037037037037037</size>
+		</datetime>
+		
 		<text name="md_lbl_developer">
-			<pos>0.265625 0.1574074074074074</pos>
+			<pos>0.265625 0.2592592592592593</pos>
+			<size>0.078125 0.037037037037037</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.34375 0.2592592592592593</pos>
+			<size>0.2708333333333333 0.037037037037037</size>
 		</text>
 		
 		<text name="md_lbl_publisher">
-			<pos>0.265625 0.2037037037037037</pos>
+			<pos>0.265625 0.3148148148148148</pos>
+			<size>0.0729166666666667 0.037037037037037</size>
+		</text>
+		
+		<text name="md_publisher">
+			<pos>0.3385416666666667 0.3148148148148148</pos>
+			<size>0.2760416666666667 0.037037037037037</size>
 		</text>
 		
 		<text name="md_lbl_genre">
-			<pos>0.265625 0.25</pos>
+			<pos>0.265625 0.3703703703703704</pos>
+			<size>0.046875 0.037037037037037</size>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.3125 0.3703703703703704</pos>
+			<size>0.3020833333333333 0.037037037037037</size>
 		</text>
 		
 		<text name="md_lbl_players">
-			<pos>0.265625 0.2962962962962963</pos>
+			<pos>0.265625 0.4259259259259259</pos>
+			<size>0.0625 0.037037037037037</size>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.328125 0.4259259259259259</pos>
+			<size>0.2864583333333333 0.037037037037037</size>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.265625 0.4814814814814815</pos>
+			<size>0.0885416666666667 0.037037037037037</size>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>0.3541666666666667 0.4814814814814815</pos>
+			<size>0.2604166666666667 0.037037037037037</size>
+		</datetime>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.265625 0.537037037037037</pos>
+			<size>0.09375 0.037037037037037</size>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.359375 0.537037037037037</pos>
+			<size>0.2552083333333333 0.037037037037037</size>
 		</text>
 		
 		<rating name="md_rating">
-			<pos>0.6614583333333333 0.5</pos>
-			<size>0 0.1111111111111111</size>
+			<pos>0.6770833333333333 0.0277777777777778</pos>
+			<size>0 0.0925925925925926</size>
 			<filledPath>./core/images/filled.png</filledPath>
 			<unfilledPath>./core/images/unfilled.png</unfilledPath>
 		</rating>
 	</view>
 	
 	<view name="detailed">
-		<image name="ui" extra="true">
-			<path>./core/images/video_view.png</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<color>${mainThemeColor}</color>
-			<zIndex>1</zIndex>
-		</image>
-		
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
-			<pos>0.8177083333333333 0.25</pos>
+			<pos>0.8072916666666667 0.3888888888888889</pos>
 			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 		</image>
 	</view>
 	
 	<feature supported="video">
 		<view name="video">
-			<image name="background" extra="true">
-				<path>./core/images/video_bg.jpg</path>
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<color>${mainThemeColor}</color>
-				<zIndex>1</zIndex>
-			</image>
-			
-			<image name="ui" extra="true">
-				<path>./core/images/video_view.png</path>
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<color>${mainThemeColor}</color>
-				<zIndex>2</zIndex>
-			</image>
-			
 			<video name="md_video">
 				<origin>0.5 0.5</origin>
-				<pos>0.8177083333333333 0.25</pos>
+				<pos>0.8072916666666667 0.3888888888888889</pos>
 				<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
 				<default>./core/images/static.mp4</default>
 				<delay>0.1</delay>
@@ -381,8 +363,8 @@ author:			Grila
 			
 			<image name="md_marquee">
 				<origin>0.5 0.5</origin>
-				<pos>0.8177083333333333 0.787037037037037</pos>
-				<maxSize>0.3333333333333333 0.2962962962962963</maxSize>
+				<pos>0.4401041666666667 0.0833333333333333</pos>
+				<maxSize>0.3489583333333333 0.1111111111111111</maxSize>
 			</image>
 		</view>
 	</feature>

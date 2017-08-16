@@ -11,7 +11,7 @@ author:			Grila
 	
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./logo.svg</path>
+			<path>./logo.png</path>
 		</image>
 	</view>
 	
@@ -33,10 +33,6 @@ author:			Grila
 				<text>Developer: Hudson Soft</text>
 			</text>
 			
-			<text name="manufacturer" extra="true">
-				<text>Manufacturer: NEC</text>
-			</text>
-			
 			<text name="cpu" extra="true">
 				<text>CPU: Two Hudson Soft HuC6280A</text>
 			</text>
@@ -53,16 +49,8 @@ author:			Grila
 				<text>Sound: 6 PSG audio channels</text>
 			</text>
 			
-			<text name="display" extra="true">
-				<text>Display: 256x224 up to 565x242</text>
-			</text>
-			
 			<text name="media" extra="true">
 				<text>Media: HuCard</text>
-			</text>
-			
-			<text name="max_controllers" extra="true">
-				<text>Max Controllers: 1</text>
 			</text>
 		</view>
 	</feature>

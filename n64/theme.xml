@@ -11,7 +11,7 @@ author:			Grila
 	
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./logo.svg</path>
+			<path>./logo.png</path>
 		</image>
 	</view>
 	
@@ -33,10 +33,6 @@ author:			Grila
 				<text>Developer: Nintendo IRD</text>
 			</text>
 			
-			<text name="manufacturer" extra="true">
-				<text>Manufacturer: Nintendo, Foxconn</text>
-			</text>
-			
 			<text name="cpu" extra="true">
 				<text>CPU: 64-bit NEC VR4300</text>
 			</text>
@@ -53,16 +49,8 @@ author:			Grila
 				<text>Sound: 64-bit SGI RCP</text>
 			</text>
 			
-			<text name="display" extra="true">
-				<text>Display: Up to 480i (576i PAL)</text>
-			</text>
-			
 			<text name="media" extra="true">
 				<text>Media: Cartridge</text>
-			</text>
-			
-			<text name="max_controllers" extra="true">
-				<text>Max Controllers: 4</text>
 			</text>
 		</view>
 	</feature>

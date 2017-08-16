@@ -11,7 +11,7 @@ author:			Grila
 	
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./logo.svg</path>
+			<path>./logo.png</path>
 		</image>
 	</view>
 	
@@ -33,10 +33,6 @@ author:			Grila
 				<text>Developer: Sony Computer Entertainment</text>
 			</text>
 			
-			<text name="manufacturer" extra="true">
-				<text>Manufacturer: Sony Computer Entertainment</text>
-			</text>
-			
 			<text name="cpu" extra="true">
 				<text>CPU: MIPS R3000A compatible 32-bit RISC CPU</text>
 			</text>
@@ -53,16 +49,8 @@ author:			Grila
 				<text>Sound: 16-bit Sony SPU, 24 channel ADPCM</text>
 			</text>
 			
-			<text name="display" extra="true">
-				<text>Display: 256x224 to 640x480</text>
-			</text>
-			
 			<text name="media" extra="true">
 				<text>Media: CD-ROM</text>
-			</text>
-			
-			<text name="max_controllers" extra="true">
-				<text>Max Controllers: 2</text>
 			</text>
 		</view>
 	</feature>
