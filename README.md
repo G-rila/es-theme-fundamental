@@ -6,6 +6,6 @@ To customize the color scheme to your liking, open up colors.xml and change the 
 * titleTextColor changes the color of the title text on the system select screen and the text list highlight
 * metaTextColor changes the color of the metadata text and text list text
 # Screenshots
-![ss1](http://griladesign.com/fundamental/1.png)
-![ss2](http://griladesign.com/fundamental/2.png)
-![ss3](http://griladesign.com/fundamental/3.png)
+![carousel](http://griladesign.com/fundamental/v2/carousel.png)
+![video](http://griladesign.com/fundamental/v2/video.png)
+![basic](http://griladesign.com/fundamental/v2/basic.png)
