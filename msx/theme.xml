@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (msx)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>MSX is a standardized home computer architecture, announced by Microsoft on June 16, 1983. It was conceived and marketed by Kazuhiko Nishi, then vice-president at Microsoft Japan and director at ASCII Corporation. Nishi conceived the project as an attempt to create unified standards among various home computing system manufacturers of the period.
+
+MSX systems were popular in Japan and several other countries. It is difficult to determine how many MSX computers were sold worldwide, but eventually 5 million MSX-based units were sold in Japan alone. Despite Microsoft's involvement, few MSX-based machines were released in the United States.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: June 16, 1983</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Microsoft Japan, Sanyo</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 8-512 KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Texas Instruments TMS9918</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: General Instrument AY-3-8910</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Floppy disk, Datasette, Cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
