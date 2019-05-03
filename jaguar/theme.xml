@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (jaguar)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Atari Jaguar is a home video game console that was developed by Atari Corporation. The console is the sixth programmable console to be developed under the Atari brand, originally released in North America in November 1993. It is also the last Atari console to use physical media. Controversially, Atari marketed the Jaguar as being the first 64-bit video game console, while competing with the existing 16-bit consoles (Sega Genesis and Super Nintendo Entertainment System) and the 32-bit 3DO Interactive Multiplayer platform (which launched the same year).</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 23, 1993</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Atari Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 2 MB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 32-bit RISC, 4 KB RAM</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 16-bit stereo</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: ROM cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
