@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (dreamcast)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America, and October 14, 1999 in Europe. It was the first in the sixth generation of video game consoles, preceding Sony's PlayStation 2, Nintendo's GameCube and Microsoft's Xbox. The Dreamcast was Sega's final home console, marking the end of the company's 18 years in the console market.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 27, 1998</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sega</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Hitachi SH-4 32-bit RISC @ 200 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 16 MB, 8 MB video, 2 MB audio</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 100 MHz PowerVR2</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 67 MHz Yamaha AICA with 32-bit</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: GD-ROM</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
