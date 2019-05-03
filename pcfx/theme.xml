@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (pcfx)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The PC-FX (ピーシー エフエックス Pī Shī Efu Ekkusu) is a 32-bit home video game console made by NEC Home Electronics. It was released in Japan on December 23, 1994, just weeks after Sony's PlayStation and a month after the Sega Saturn. It is the successor to the PC Engine, known as TurboGrafx-16 in North America.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: December 23, 1994</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: NEC Home Electronics</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: NEC V810</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 2 MB</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: 341x480i</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: 16-Bit Stereo CD-DA</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: CD-ROM</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
