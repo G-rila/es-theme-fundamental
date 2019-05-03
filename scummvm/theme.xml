@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (scummvm)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft. It was originally written by Ludvig Strigeus. Released under the terms of the GNU General Public License, ScummVM is free software.
+ScummVM is a reimplementation of the part of the software used to interpret the scripting languages such games used to describe the game world rather than emulating the hardware the games ran on; as such, ScummVM allows the games it supports to be played on platforms other than those for which they were originally released.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: October 5, 2001</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: ScummVM Team</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>Type: Interpreter</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Written in: C++ and SDL</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
