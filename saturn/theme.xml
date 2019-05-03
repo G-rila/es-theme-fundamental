@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (saturn)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The Sega Saturn is a 32-bit fifth-generation home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. The successor to the successful Sega Genesis, the Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several arcade ports as well as original games.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: November 22, 1994</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Sega</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: 2× Hitachi SH-2 @ 28.6 MHz</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 2 MB RAM, 1.5 MB VRAM</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: VDP1 and VDP2 video display</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: Yamaha YMF292</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: CD-ROM, CD+G, CD+EG</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
