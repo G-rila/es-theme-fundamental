@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (x68000)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The X68000 (Japanese: エックス ろくまんはっせん Hepburn: Ekkusu Rokuman Hassen) is a home computer created by Sharp Corporation, first released in 1987, sold only in Japan.
+
+The first model features a 10 MHz Motorola 68000 CPU (hence the name), 1 MB of RAM, and no hard drive; the last model was released in 1993 with a 25 MHz Motorola 68030 CPU, 4 MB of RAM, and optional 80 MB SCSI hard drive. RAM in these systems is expandable to 12 MB, though most games and applications do not require more than 2 MB.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: March 28, 1987</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Sharp Corporation</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 1-4 MB (expandable up to 12 MB)</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: Sharp-Hudson Custom Chipset</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: Yamaha YM2151</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: Floppy disk</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
