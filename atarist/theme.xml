@@ -8,51 +8,47 @@ author:			Juliano Dorigão
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
+
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
 				<text>The Atari ST is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial ST model, the 520ST, saw limited release in April–June 1985 and was widely available in July. The Atari ST is the first personal computer to come with a bitmapped color GUI, using a version of Digital Research's GEM released in February 1985.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
 				<text>Release Date: June 1985</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
 				<text>Developer: Atari Corporation</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
 				<text>CPU: Motorola 680x0 @ 8 MHz & higher</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
 				<text>Memory: 512 KBs to 4 MB</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
 				<text>Graphics: 60 Hz NTSC, 50 Hz PAL, 71.2 Hz monochrome</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
 				<text>Sound: Yamaha YM2149</text>
 			</text>
-			
-			<text name="media" extra="true">
-				<text>Media:</text>
-			</text>
 		</view>
 	</feature>
-	
+
 </theme>

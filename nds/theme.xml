@@ -8,51 +8,47 @@ author:			Juliano Dorigão
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
+
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
 				<text>The Nintendo DS, or simply DS, is a dual-screen handheld game console developed and released by Nintendo. The device released globally across 2004 and 2005. The DS, short for "Developers' System" or "Dual Screen", introduced distinctive new features to handheld gaming: two LCD screens working in tandem (the bottom one featuring a touchscreen), a built-in microphone, and support for wireless connectivity. Both screens are encompassed within a clamshell design similar to the Game Boy Advance SP. The Nintendo DS also features the ability for multiple DS consoles to directly interact with each other over Wi-Fi within a short range without the need to connect to an existing wireless network. Alternatively, they could interact online using the now-defunct Nintendo Wi-Fi Connection service.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
 				<text>Release Date: November 21, 2004</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
 				<text>Developer: Nintendo</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
 				<text>CPU: Two ARM architecture processors</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
 				<text>Memory: 4 MB RAM</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
 				<text>Graphics: Two TFT LCD, 256 × 192 pixels</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
-				<text>Sound:</text>
-			</text>
-			
-			<text name="media" extra="true">
 				<text>Media: Nintendo game card, ROM cartridge</text>
 			</text>
 		</view>
 	</feature>
-	
+
 </theme>

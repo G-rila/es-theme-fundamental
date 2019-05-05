@@ -38,18 +38,6 @@ author:			Juliano Dorigão
 			</text>
 
 			<text name="memory" extra="true">
-				<text>Memory:</text>
-			</text>
-
-			<text name="graphics" extra="true">
-				<text>Graphics:</text>
-			</text>
-
-			<text name="sound" extra="true">
-				<text>Sound:</text>
-			</text>
-
-			<text name="media" extra="true">
 				<text>Media: ROM cartridge</text>
 			</text>
 		</view>

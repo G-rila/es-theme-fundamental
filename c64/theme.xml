@@ -8,51 +8,47 @@ author:			Juliano Dorigão
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
+
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
 				<text>The Commodore 64, also known as the C64 or the CBM 64, is an 8-bit home computer introduced in January 1982 by Commodore International (first shown at the Consumer Electronics Show, in Las Vegas, January 7–10, 1982). It has been listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units. Volume production started in early 1982, marketing in August for US$595 (equivalent to $1,545 in 2018). Preceded by the Commodore VIC-20 and Commodore PET, the C64 took its name from its 64 kilobytes (65,536 bytes) of RAM. With support for multicolor sprites and a custom chip for waveform generation, the C64 could create superior visuals and audio compared to systems without such custom hardware.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
 				<text>Release Date: August 1982</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
 				<text>Developer: Commodore Business Machines (CBM)</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
 				<text>CPU: MOS Technology 6510/8500</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
 				<text>Memory: 64 KB RAM + 20 KB ROM</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
 				<text>Graphics: VIC-II (320 × 200, 16 colors)</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
 				<text>Sound: SID 6581/8580</text>
 			</text>
-			
-			<text name="media" extra="true">
-				<text>Media:</text>
-			</text>
 		</view>
 	</feature>
-	
+
 </theme>
