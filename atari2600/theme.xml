@@ -8,51 +8,51 @@ author:			Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
+
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
 				<text>The Atari 2600 (or Atari Video Computer System before November 1982) is a home video game console by Atari, Inc. Released on September 11, 1977, it is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code, a format first used with the Fairchild Channel F video game console in 1976. This format contrasts with the older model of having non-microprocessor dedicated hardware, which could only play the games that were physically built into the unit.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
 				<text>Release Date: September 11, 1977</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
 				<text>Developer: Atari</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
 				<text>CPU: MOS Technology 6507</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
 				<text>Memory: 128 bytes</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
 				<text>Graphics: TIA</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
 				<text>Sound: 2 channel handled by the TIA</text>
 			</text>
-			
+
 			<text name="media" extra="true">
 				<text>Media: Cartridge</text>
 			</text>
 		</view>
 	</feature>
-	
+
 </theme>
