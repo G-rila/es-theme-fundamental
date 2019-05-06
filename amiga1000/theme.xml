@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (amiga1000)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The Commodore Amiga 1000, also known as the A1000 and originally marketed as the Amiga, is the first personal computer released by Commodore International in the Amiga line. It combines the 16/32-bit Motorola 68000 CPU which was powerful by 1985 standards with one of the most advanced graphics and sound systems in its class, and runs a preemptive multitasking operating system that fits into 256 KB of read-only memory and shipped with 256 KB of RAM. The primary memory can be expanded internally with a manufacturer-supplied 256 KB module for a total of 512 KB of RAM. Using the external slot the primary memory can be expanded up to 8.5 MB.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: July 23, 1985</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000 @ 7.16 MHz</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: ROM 256 KB, RAM 256 KB</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: OCS 640×512i 6-bpp</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: Paula 4× 8-bit channels </text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: 880 KB floppy disks</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
