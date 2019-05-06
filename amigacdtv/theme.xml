@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (amigacdtv)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The CDTV (from Commodore Dynamic Total Vision, later treated as a backronym for Compact Disc Television) is a home multimedia entertainment and video game console – convertible into a full-fledged personal computer by the addition of optional peripherals – developed by Commodore International and launched in April 1991.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: March 1991</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore International</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000 @ 7 MHz</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 1 MB</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: 12-bit color palette</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: 4x 8-bit PCM channels</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: CD-ROM</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
