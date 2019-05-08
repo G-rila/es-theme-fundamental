@@ -193,6 +193,7 @@ author:			Grila
 			<pos>0.25 0.212962962962963</pos>
 			<size>0.5 0.7222222222222222</size>
 			<fontSize>0.0333333333333333</fontSize>
+			<scrollSound>./core/sound/scroll.wav</scrollSound>
 		</textlist>
 	</view>
 	
@@ -220,6 +221,7 @@ author:			Grila
 			<size>0.25 0.9444444444444444</size>
 			<fontSize>0.0333333333333333</fontSize>
 			<horizontalMargin>0.0026041666666667</horizontalMargin>
+			<scrollSound>./core/sound/scroll.wav</scrollSound>
 		</textlist>
 		
 		<image name="logo">
