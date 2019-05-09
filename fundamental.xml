@@ -219,6 +219,16 @@ author:			Grila
 			<pos>0.265625 0.962962962962963</pos>
 		</helpsystem>
 
+		<text name="console_name" extra="true">
+			<text>${system.fullName}</text>
+			<fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+			<fontSize>0.0740740740740741</fontSize>
+			<pos>0.265625 0.0277777777777778</pos>
+			<size>0.71875 0.0648148148148148</size>
+			<alignment>left</alignment>
+			<color>${titleTextColor}</color>
+		</text>	
+
 		<textlist name="gamelist">
 			<selectorColor>${titleTextColor}</selectorColor>
 			<selectedColor>${metaTextColor}</selectedColor>
@@ -343,8 +353,8 @@ author:			Grila
 		</text>
 
 		<rating name="md_rating">
-			<pos>0.6770833333333333 0.0277777777777778</pos>
-			<size>0 0.0925925925925926</size>
+			<pos>0.265625 0.13</pos>
+			<size>0 0.05</size>
 			<filledPath>./core/images/filled.png</filledPath>
 			<unfilledPath>./core/images/unfilled.png</unfilledPath>
 		</rating>
