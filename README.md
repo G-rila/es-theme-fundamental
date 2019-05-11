@@ -9,3 +9,4 @@ To customize the color scheme to your liking, open up colors.xml and change the 
 ![alt text](core/screenshot/system.png "System")
 ![alt text](core/screenshot/gamelist.png "Game List")
 ![alt text](core/screenshot/basic.png "Basic")
+![alt text](core/screenshot/grid.png "Grid")
