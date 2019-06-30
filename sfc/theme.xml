@@ -11,7 +11,7 @@ author:			Grila
 	
 	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
-			<path>./logo.svg</path>
+			<path>./logo.png</path>
 		</image>
 	</view>
 	
