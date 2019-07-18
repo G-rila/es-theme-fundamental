@@ -9,7 +9,7 @@ author:			Juliano Dorigão
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 
-	<view name="system, basic, detailed, grid, video">
+	<view name="system, basic, grid">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>

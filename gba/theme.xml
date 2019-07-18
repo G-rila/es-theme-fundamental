@@ -9,7 +9,7 @@ author:			Grila
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 
-	<view name="system, basic, detailed, grid, video">
+	<view name="system, basic, grid">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>
@@ -38,7 +38,7 @@ author:			Grila
 			</text>
 
 			<text name="memory" extra="true">
-				<text>Memory: 32 KB + 96 KB VRAM (CPU), 256 KB DRAM (ex CPU)</text>
+				<text>Memory: 32 KB</text>
 			</text>
 
 			<text name="graphics" extra="true">
@@ -46,7 +46,7 @@ author:			Grila
 			</text>
 
 			<text name="sound" extra="true">
-				<text>Sound: Dual 8-bit DAC plus all Gameboy legacy channels</text>
+				<text>Sound: Dual 8-bit DAC plus</text>
 			</text>
 
 			<text name="media" extra="true">
