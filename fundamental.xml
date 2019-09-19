@@ -8,6 +8,8 @@ author:			Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./colors.xml</include>
+	<include>./core/icons/menuicons.xml</include>
+	<include>./core/menu/menu.xml</include>
 
 	<view name="system, basic, detailed, grid, video">
 		<image name="background" extra="true">
