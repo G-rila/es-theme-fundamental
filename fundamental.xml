@@ -46,7 +46,7 @@ author:			Grila
 		</menuBackground>
 	</view>
 
-	<view name="system, basic, detailed, grid, video">
+	<view name="system, basic, detailed, grid">
 		<image name="background" extra="true">
 			<path>./core/images/bg.jpg</path>
 			<origin>0 0</origin>
@@ -242,7 +242,7 @@ author:			Grila
 		</textlist>
 	</view>
 
-	<view name="detailed, video">
+	<view name="detailed">
 		<image name="ui" extra="true">
 			<path>./core/images/carousel_detailed_video_view.png</path>
 			<origin>0 0</origin>
@@ -251,6 +251,16 @@ author:			Grila
 			<color>${mainThemeColor}</color>
 			<zIndex>1</zIndex>
 		</image>
+
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.8072916666666667 0.3888888888888889</pos>
+			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
+			<delay>0.8</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<loops>0</loops>
+		</video>
 
 		<helpsystem name="help">
 			<pos>0.265625 0.962962962962963</pos>
@@ -395,14 +405,6 @@ author:			Grila
 			<filledPath>./core/images/filled.png</filledPath>
 			<unfilledPath>./core/images/unfilled.png</unfilledPath>
 		</rating>
-	</view>
-
-	<view name="detailed">
-		<image name="md_image">
-			<origin>0.5 0.5</origin>
-			<pos>0.8072916666666667 0.3888888888888889</pos>
-			<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
-		</image>
 	</view>
 
 	<view name="grid">
@@ -565,25 +567,4 @@ author:			Grila
 			<lineSpacing>1.17</lineSpacing>
 		</text>	
 	</view>
-
-	<feature supported="video">
-		<view name="video">
-			<video name="md_video">
-				<origin>0.5 0.5</origin>
-				<pos>0.8072916666666667 0.3888888888888889</pos>
-				<maxSize>0.3333333333333333 0.4444444444444444</maxSize>
-				<default>./core/images/static.mp4</default>
-				<delay>0.1</delay>
-				<showSnapshotNoVideo>false</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-				<zIndex>3</zIndex>
-			</video>
-
-			<image name="md_marquee">
-				<origin>0.5 0.5</origin>
-				<pos>0.4401041666666667 0.0833333333333333</pos>
-				<maxSize>0.3489583333333333 0.1111111111111111</maxSize>
-			</image>
-		</view>
-	</feature>
 </theme>
