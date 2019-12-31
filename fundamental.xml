@@ -6,10 +6,45 @@ author:			Grila
 -->
 
 <theme>
-	<formatVersion>4</formatVersion>
-	<include>./colors.xml</include>
+	<formatVersion>7</formatVersion>
 	<include>./core/icons/menuicons.xml</include>
-	<include>./core/menu/menu.xml</include>
+
+	<include subset="colorset" name="blue" displayName="Blue">./core/colors/blue.xml</include>
+	<include subset="colorset" name="dark" displayName="Dark">./core/colors/dark.xml</include>
+	
+	<view name="menu">
+		<menuText name="menutitle">
+				<fontPath>./core/fonts/ubuntu_bold.ttf</fontPath>
+				<fontSize>0.044</fontSize>
+				<color>${colorTitle}</color>
+		</menuText>
+
+		<menuText name="menufooter">
+				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+				<fontSize>0.02</fontSize>
+				<color>${colorFooterMenu}</color>
+		</menuText>
+
+		<menuText name="menutext">
+				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<color>${colorTitle}</color>
+				<separatorColor>${colorSeparator}</separatorColor>
+				<selectorColor>${colorSelector}</selectorColor>
+				<selectorColorEnd>${colorEndSelector}</selectorColorEnd>
+				<selectedColor>${colorSelected}</selectedColor>
+		</menuText>
+
+		<menuTextSmall name="menutextsmall">
+				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+				<fontSize>0.02</fontSize>
+				<color>${colorText}</color>
+		</menuTextSmall>
+
+		<menuBackground name="menubg">
+				<color>${colorBackgroundMenu}</color>
+		</menuBackground>
+	</view>
 
 	<view name="system, basic, detailed, grid, video">
 		<image name="background" extra="true">
@@ -407,13 +442,11 @@ author:			Grila
 		<gridtile name="default">
 			<size>0.15 0.20</size>
 			<backgroundCornerSize>0.01 0.01</backgroundCornerSize>
-			<backgroundImage>./core/images/default_grid.png</backgroundImage>
 			<backgroundColor>42424200</backgroundColor>
 		</gridtile>
 
 		<gridtile name="selected">
 			<size>0.20 0.25</size>
-			<backgroundImage>./core/images/default_grid.png</backgroundImage>
 			<backgroundColor>42424200</backgroundColor>
 		</gridtile>
 

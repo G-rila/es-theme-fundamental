@@ -17,6 +17,7 @@
             <iconRestart>./Restart.png</iconRestart>
             <iconShutdown>./Shutdown.png</iconShutdown>
             <iconFastShutdown>./Fastshutdown.png</iconFastShutdown>
+            <iconRetroachievements>./Contest.png</iconRetroachievements>
         </menuIcons>
     </view>
 </theme>

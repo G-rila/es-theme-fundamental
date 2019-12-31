@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<variables>
+		<!-- System -->
+		<mainThemeColor>28405A</mainThemeColor>
+		<titleTextColor>387297</titleTextColor>
+		<metaTextColor>EFEFEF</metaTextColor>
+		<backgroundImage>./core/images/default_grid.png</backgroundImage>
+
+		<!-- Menu -->
+		<colorTitle>969696</colorTitle>
+		<colorSeparator>345173</colorSeparator>
+		<colorSelector>b3b3b3</colorSelector>
+		<colorEndSelector>5d5d5d</colorEndSelector>
+		<colorSelected>262626</colorSelected>
+		<colorText>deec00</colorText>
+		<colorBackgroundMenu>28405A</colorBackgroundMenu>
+		<colorFooterMenu>777777FF</colorFooterMenu>
+	</variables>
+</theme>
