@@ -11,6 +11,19 @@ author:			Grila
 
 	<include subset="colorset" name="blue" displayName="Blue">./core/colors/blue.xml</include>
 	<include subset="colorset" name="dark" displayName="Dark">./core/colors/dark.xml</include>
+
+	<view name="screen">	
+		<controllerActivity name="controllerActivity">
+		<pos>0.01 0.97</pos>
+		<size>0.085 0.025</size>
+		<itemSpacing>0.003</itemSpacing>
+		<imagePath>./core/icons/gamepad.svg</imagePath>
+		<color>FFFFFF90</color>
+		<activityColor>FFFFFF</activityColor>
+		<hotkeyColor>DEEC00</hotkeyColor>
+		<verticalAlignment>center</verticalAlignment>
+		</controllerActivity>		
+	</view>
 	
 	<view name="menu">
 		<menuText name="menutitle">
