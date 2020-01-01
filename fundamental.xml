@@ -27,35 +27,37 @@ author:			Grila
 	
 	<view name="menu">
 		<menuText name="menutitle">
-				<fontPath>./core/fonts/ubuntu_bold.ttf</fontPath>
-				<fontSize>0.044</fontSize>
-				<color>${colorTitle}</color>
+			<fontPath>./core/fonts/ubuntu_bold.ttf</fontPath>
+			<fontSize>0.044</fontSize>
+			<color>${colorTitle}</color>
 		</menuText>
 
 		<menuText name="menufooter">
-				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
-				<fontSize>0.02</fontSize>
-				<color>${colorFooterMenu}</color>
+			<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${colorFooterMenu}</color>
 		</menuText>
 
 		<menuText name="menutext">
-				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
-				<fontSize>0.03</fontSize>
-				<color>${colorTitle}</color>
-				<separatorColor>${colorSeparator}</separatorColor>
-				<selectorColor>${colorSelector}</selectorColor>
-				<selectorColorEnd>${colorEndSelector}</selectorColorEnd>
-				<selectedColor>${colorSelected}</selectedColor>
+			<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>${colorTitle}</color>
+			<separatorColor>${colorSeparator}</separatorColor>
+			<selectorColor>${colorSelector}</selectorColor>
+			<selectorColorEnd>${colorEndSelector}</selectorColorEnd>
+			<selectedColor>${colorSelected}</selectedColor>
 		</menuText>
 
 		<menuTextSmall name="menutextsmall">
-				<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
-				<fontSize>0.02</fontSize>
-				<color>${colorText}</color>
+			<fontPath>./core/fonts/ubuntu_medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${colorText}</color>
 		</menuTextSmall>
 
 		<menuBackground name="menubg">
-				<color>${colorBackgroundMenu}</color>
+			<color>${colorBackgroundMenu}</color>
+			<cornerSize>32 32</cornerSize>
+			<path>./core/images/frame.png</path>
 		</menuBackground>
 	</view>
 
