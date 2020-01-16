@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (ports)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Fairchild Channel F, F for Fun[2], is a second-generation home video game console that was released by Fairchild Semiconductor in November 1976 across North America at a retail price of $169.95. It was also released in Japan in October the following year. It has the distinction of being the first programmable ROM cartridge–based video game console, and the first console to use a microprocessor. It was originally named Video Entertainment System, or VES, but when Atari released its VCS the next year, Fairchild changed the name for its machine, although they continued to use the old name alongside it. By 1977, the Fairchild Channel F had sold about 250,000 units, trailing behind sales of the VCS.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 1976</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Fairchild Semiconductor</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Fairchild F8</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 2KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 128×64 pixels</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 120 Hz, 500 Hz and 1 kHz beeps</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: ROM cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

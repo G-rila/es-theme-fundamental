@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (ports)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Philips CD-i (an abbreviation of Compact Disc Interactive) is an interactive multimedia CD player developed and marketed by Dutch company Philips, who supported it from December 1991 to late 1998. It was created to provide more functionality than an audio CD player or game console, but at a lower price than a personal computer with a CD-ROM drive. The cost savings were due to the lack of a floppy drive, keyboard, mouse, and monitor (a standard television is used), and less operating system software. "CD-i" also refers to the multimedia Compact Disc standard used by the CD-i console, also known as Green Book, which was co-developed by Philips and Sony.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: December 3, 1991</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Philips, Sony, Magnavox</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Philips SCC68070 @ 15.5 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 1 MB RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Philips SCC66470</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 	MCD 221, ADPCM eight channel sound</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: CD</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
