@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (supergrafx)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The PC Engine SuperGrafx (PCエンジンスーパーグラフィックス Pī Shī Enjin SūpāGurafikkusu), also shortened as the SuperGrafx or PC Engine SG, is a video game console by NEC Home Electronics, released exclusively in Japan. It is an upgraded version of the PC Engine, released two years prior.
+
+Originally announced as the PC Engine 2 (PCエンジン2 Pī Shī Enjin Tsū), the machine was purported to be a true 16-bit system with improved graphics and audio capabilities over the original PC Engine. Expected to be released in 1990, the SuperGrafx was rushed to market, debuting several months earlier in late 1989 with only modest improvements over the original PC Engine.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: December 8, 1989</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: NEC Home Electronics</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Hudson Soft HuC6280</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 32KB</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: HuC6270A</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: HuC6280A</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: HuCard, CD-ROM²</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>

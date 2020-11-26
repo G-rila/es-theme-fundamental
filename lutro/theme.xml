@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (arcade)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>Lutro is an experimental lua game framework that follows the LÖVE API. Lutro games can be played with LibRetro/RetroArch through the Lutro core.</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Higor Euripedes/Jean-Andre Santoni</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>

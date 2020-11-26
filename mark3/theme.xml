@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (mastersystem)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Sega Mark III is a third-generation home video game console that was manufactured by Sega. It was released in 1985 as the Sega Mark III in Japan.Both the Mark III and the original Master System models could play with both cartridges and the credit card-sized Sega Cards, which retailed at lower prices than cartridges but had lower storage capacity. The Master System also featured accessories such as a light gun and 3D glasses which were designed to work with a range of specially coded games.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: October 20, 1985</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sega</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 8 KB RAM plus 16 KB video RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: TI TMS9928A VDP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: TI SN76489 PSG 4 channels</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge, Sega Card</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

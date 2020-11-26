@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (ports)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>A source port is a software project based on the source code of a game engine that allows the game to be played on operating systems or computing platforms with which the game was not originally compatible. Currently, RetroPie supports a total of 22 ports.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: Varies</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Varies</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Varies</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: Varies</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Varies</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Varies</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Varies</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

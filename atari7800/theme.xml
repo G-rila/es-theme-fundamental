@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (atari7800)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Atari 7800 ProSystem, or simply the Atari 7800, is a home video game console officially released by the Atari Corporation in 1986. It is almost fully backward-compatible with the Atari 2600, the first console to have backward compatibility without the use of additional modules.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: May 1986</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Atari, Inc.</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Atari SALLY 6502 ("6502C")</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 4KB RAM, 4KB BIOS ROM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: MARIA custom chip clocked at 7.16MHz</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 2 channel handled by the TIA</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: ROM cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

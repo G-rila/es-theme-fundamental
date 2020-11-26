@@ -8,51 +8,51 @@ author:			Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
-	<view name="system, basic, detailed, grid, video">
+
+	<view name="system, basic, grid">
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
 				<text>The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo's Game Boy, the Atari Lynx and NEC's TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System, the latter being made possible by the use of an adapter. Containing a full-color backlit screen with a landscape format, Sega positioned the Game Gear as a technologically superior handheld to the Game Boy.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
 				<text>Release Date: October 6, 1990</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
 				<text>Developer: Sega</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
 				<text>CPU: Zilog Z80</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
 				<text>Memory: 8 KB RAM, 16 KB video RAM</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
 				<text>Graphics: Custom VDP</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
 				<text>Sound: TI SN76489</text>
 			</text>
-			
+
 			<text name="media" extra="true">
 				<text>Media: Cartridge</text>
 			</text>
 		</view>
 	</feature>
-	
+
 </theme>

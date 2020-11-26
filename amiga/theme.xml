@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (amiga)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The Amiga is a family of personal computers introduced by Commodore in 1985. The original model was part of a wave of 16- and 32-bit computers that featured 256 KB or more of RAM, mouse-based GUIs, and significantly improved graphics and audio over 8-bit systems. This wave included the Atari ST—released the same year—Apple's Macintosh, and later the Apple IIGS. Based on the Motorola 68000 microprocessor, the Amiga differed from its contemporaries through the inclusion of custom hardware to accelerate graphics and sound, including sprites and a blitter, and a pre-emptive multitasking operating system called AmigaOS.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: July 1985</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68k family @ 7.16 MHz &amp; higher</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 512 KiB 150 ns (9 MiB maximum)</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: 880 KiB floppy disks</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
