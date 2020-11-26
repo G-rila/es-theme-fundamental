@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (ports)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The TRS-80 Micro Computer System (TRS-80, later renamed the Model I to distinguish it from successors) is a desktop microcomputer launched in 1977 and sold by Tandy Corporation through their RadioShack stores. The name is an abbreviation of Tandy/RadioShack, Z80 microprocessor.[3] It is one of the earliest mass-produced and mass-marketed retail home computers.[4]</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: August 3, 1977</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Tandy Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80 @ 1.774 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 	4 KB ~ 48 KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: </text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound:</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: </text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

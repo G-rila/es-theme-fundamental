@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (ngpc)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Neo Geo Pocket Color (also stylized as NEOGEOPOCKET COLOR, often abbreviated NGPC), is a 16-bit color handheld video game console manufactured by SNK. It is a successor to SNK's monochrome Neo Geo Pocket handheld which debuted in 1998 in Japan, with the Color being fully backward compatible. The Neo Geo Pocket Color was released on March 16, 1999 in Japan, August 6, 1999 in North America, and on October 1, 1999 in Europe, entering markets all dominated by Nintendo.
+After a good sales start in both the U.S. and Japan with 14 launch titles (a record at the time) subsequent low retail support in the U.S., lack of communication with third-party developers by SNK's American management, the craze about Nintendo's Pokémon franchise, anticipation of the 32-bit Game Boy Advance, as well as strong competition from Bandai's WonderSwan in Japan, led to a sales decline in both regions.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: March 16, 1999</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: SNK</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Toshiba TLCS900H core (16-bit)</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 12 k for 900H, 4 k for Z80</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 160x152 (256x256 virtual screen)</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: SN76489 variant</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: ROM cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

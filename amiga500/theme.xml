@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (amiga500)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The Amiga 500, also known as the A500, is the first low-end Commodore Amiga 16/32-bit multimedia home/personal computer. It was announced at the winter Consumer Electronics Show in January 1987 – at the same time as the high-end Amiga 2000 – and competed directly against the Atari 520ST.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: April 1987</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 68000 @ 7.16 MHz</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 512 KiB 150 ns (9 MiB maximum)</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: 736×567i 4-bpp PAL</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: 4× 8-bit channels PCM</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: 880 KiB floppy disks</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>

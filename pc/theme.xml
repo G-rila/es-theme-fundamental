@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (dos)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>MS-DOS (acronym for Microsoft Disk Operating System) is an operating system for x86-based personal computers mostly developed by Microsoft. Collectively, MS-DOS, its rebranding as IBM PC DOS, and some operating systems attempting to be compatible with MS-DOS, are sometimes referred to as "DOS" (which is also the generic acronym for disk operating system). MS-DOS was the main operating system for IBM PC compatible personal computers during the 1980s and the early 1990s, when it was gradually superseded by operating systems offering a graphical user interface (GUI), in various generations of the graphical Microsoft Windows operating system.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: August 12, 1981</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Microsoft</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>Written in: x86 assembly and also used C</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Platforms: x86</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (atomiswave)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Atomiswave is a custom arcade system board and cabinet from Sammy Corporation. It is based on Sega's NAOMI system board (thus it's common to see the "Sega" logo on its boot up screen). The Atomiswave uses interchangeable game cartridges and the cabinet's control panel can be easily switched out with different control sets, including dual joysticks, dual lightguns and a steering wheel.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 2003</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sammy Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Hitachi SH-4 32-bit RISC CPU 200 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 16 MB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: PowerVR 2 100 MHz</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: ARM7 Yamaha AICA</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: ROM board</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

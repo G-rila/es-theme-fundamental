@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (dos)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>OpenBOR is the open source continuation of Beats of Rage - a 2D sidescrolling beat em up game engine.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 2015</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: ChronoCrash</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text></text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Platforms:</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
