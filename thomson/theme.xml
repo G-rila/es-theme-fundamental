@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (Thomson)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Thomson TO8 is a home computer introduced by French company Thomson SA in 1986.It replaces its predecessor, the Thomson TO7/70 while remaining essentially compatible.
+
+The new features of the TO8, like larger memory and better graphics modes, are shared with the other third generation computers (Thomson MO6 and TO9+). The TO8 has a tape drive and Microsoft BASIC 1.0 (both a standard and a 512 KB version) on its internal ROM, and there is optionally an external floppy drive.
+
+An improved version, the Thomson TO8D, includes a built-in 3.5" floppy drive.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: September 1986</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Thomson SA</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Motorola 6809E 1 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 256/512 KB RAM, 80 KB ROM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 160 x 200, 320 x 200, 640 x 200</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: generator + 1 bit D/A converter 6 bits</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text>Media: Floppy disk</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
