@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (comodore128)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The Commodore 128, also known as the C128, C-128, C=128, is the last 8-bit home computer that was commercially released by Commodore Business Machines (CBM). Introduced in January 1985 at the CES in Las Vegas, it appeared three years after its predecessor, the bestselling Commodore 64.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: January 1985</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore Business Machines (CBM)</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: MOS Technology 8502</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 128 KB RAM</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: VIC-II E MOS 8563</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: SID 6581/8580</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
