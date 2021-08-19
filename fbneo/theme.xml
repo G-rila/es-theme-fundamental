@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (fbneo)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>An arcade game or coin-op is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. Most arcade games are video games, pinball machines, electro-mechanical games, redemption games or merchandisers. While exact dates are debated, the golden age of arcade video games is usually defined as a period beginning sometime in the late 1970s and ending sometime in the mid-1980s. Excluding a brief resurgence in the early 1990s, the arcade industry subsequently declined in the Western hemisphere as competing home-based video game consoles such as Playstation and Xbox increased in their graphics and game-play capability and decreased in cost.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: Varies</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Varies</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Varies</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: Varies</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Varies</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Varies</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Varies</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
