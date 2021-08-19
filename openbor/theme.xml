@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:		Fundamental (dos)
+theme name:		Fundamental (OpenBor)
 version:		2.0
 author:			Juliano Dorigão
 -->
@@ -22,23 +22,15 @@ author:			Juliano Dorigão
 			</image>
 	
 			<text name="console_notes" extra="true">
-				<text>OpenBOR is the open source continuation of Beats of Rage - a 2D sidescrolling beat em up game engine.</text>
+				<text>Beats of Rage is a fan-made tribute game to Sega's Streets of Rage series. It supplants the original graphics and characters with resources taken from The King of Fighters series, albeit with tongue in cheek renames. Originally developed by Senile Team, the underlying engine powering Beats of Rage later went on to become the Open Beats of Rage (OpenBOR) game engine project.</text>
 			</text>
 		
 			<text name="release_date" extra="true">
-				<text>Release Date: 2015</text>
+				<text>Release Date: November 2003</text>
 			</text>
 			
 			<text name="developer" extra="true">
-				<text>Developer: ChronoCrash</text>
-			</text>
-			
-			<text name="cpu" extra="true">
-				<text></text>
-			</text>
-			
-			<text name="memory" extra="true">
-				<text>Platforms:</text>
+				<text>Developer: Senile Team</text>
 			</text>
 		</view>
 	</feature>
