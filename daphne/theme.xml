@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:		Fundamental (odyssey2)
+theme name:		Fundamental (daphne)
 version:		2.0
 author:			Juliano Dorigão
 -->
@@ -8,51 +8,51 @@ author:			Juliano Dorigão
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
-	
+
 	<view name="system, basic, grid">
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./logo.svg</path>
 		</image>
 	</view>
-	
+
 	<feature supported="carousel">
-		<view name="system">	
+		<view name="system">
 			<image name="console" extra="true">
 				<path>./console.png</path>
 			</image>
-	
+
 			<text name="console_notes" extra="true">
-				<text>Daphne is an Emulator for LaserDisc based games</text>
+				<text>Laserdiscs were predecessors to the DVD. The first laserdisc game was released in 1982. Laserdisc games function much like interactive fiction where you choose your own story and the video adapts to the path you choose to take.</text>
 			</text>
-		
+
 			<text name="release_date" extra="true">
-				<text>Release Date: </text>
+				<text>Release Date: Varies</text>
 			</text>
-			
+
 			<text name="developer" extra="true">
-				<text>Developer: </text>
+				<text>Developer: Varies</text>
 			</text>
-			
+
 			<text name="cpu" extra="true">
-				<text>CPU: </text>
+				<text>CPU: Varies</text>
 			</text>
-			
+
 			<text name="memory" extra="true">
-				<text>Memory: </text>
+				<text>Memory: Varies</text>
 			</text>
-			
+
 			<text name="graphics" extra="true">
-				<text>Graphics: </text>
+				<text>Graphics: Varies</text>
 			</text>
-			
+
 			<text name="sound" extra="true">
-				<text>Sound: </text>
+				<text>Sound: Varies</text>
 			</text>
-			
+
 			<text name="media" extra="true">
-				<text>Media: LaserDisc</text>
+				<text>Media: CD-ROM</text>
 			</text>
 		</view>
 	</feature>
-	
+
 </theme>
