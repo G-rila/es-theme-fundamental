@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (comodoreVIC20)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The VIC-20 (in Germany, VC-20, in Japan, VIC-1001) is an 8-bit home computer that was sold by Commodore Business Machines. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the PET. The VIC-20 was the first computer of any description to sell one million units. It was described as "one of the first anti-spectatorial, non-esoteric computers by design...no longer relegated to hobbyist/enthusiasts or those with money, the computer Commodore developed was the computer of the future."</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: 1980</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Commodore Business Machines (CBM)</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: MOS Technology 6502</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 20 KB ROM + 5 KB RAM</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Graphics: VIC 176 x 184 3-bpp</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound: 3 × square, 1 × noise, mono</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
