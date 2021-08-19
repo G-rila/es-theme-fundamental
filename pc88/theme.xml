@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (pc88)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The PC-8800 series (Japanese: PC-8800シリーズ, Hepburn: Pī Shī Hassen Happyaku Shirīzu), commonly shortened to PC-88, are a brand of Zilog Z80-based 8-bit home computers released by Nippon Electric Company (NEC) in 1981 and primarily sold in Japan.
+
+The PC-8800 series sold extremely well and became one of the three major Japanese home computers of the 1980s, along with the Fujitsu FM-7 and Sharp X1. It was later eclipsed by NEC's 16-bit PC-9800 series, although it still maintained strong sales up until the early 90s.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 1981</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nippon Electric (NEC)</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: NEC µPD780C @ 4MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 64 kilobytes and higher</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 640 × 200 8 colors</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Yamaha YM2203</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: floppy disk</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
