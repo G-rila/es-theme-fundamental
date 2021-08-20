@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (Retroachievements)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>Solarus is a free and open-source game engine, licensed under GPL v3. It is written from scratch in C++ and uses SDL2. Consequently, it is available on a large set of machines. It’s not an emulator neither a Super Nintendo™ ROM hack.
+
+Development began in 2006. The goal of the engine is to allow people to create their own Action-RPG games (also called Zelda-like games). It is totally independent from Nintendo.
+
+Solarus does not contain any copyrighted code or assets: it is 100% free and open-source. Thus, Solarus cannot be eligible for a DMCA from anyone, including Nintendo.</text>
+			</text>
+		</view>
+	</feature>
+
+</theme>
