@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:		Fundamental (BBC Micro)
+theme name:		Fundamental (bbcmicro)
 version:		2.0
 author:			Grila
 -->
@@ -42,7 +42,7 @@ author:			Grila
 			</text>
 			
 			<text name="graphics" extra="true">
-				<text>Graphics: 256×192 (16 colours)</text>
+				<text>Graphics: 256ï¿½192 (16 colours)</text>
 			</text>
 			
 			<text name="sound" extra="true">
@@ -50,7 +50,7 @@ author:			Grila
 			</text>
 			
 			<text name="media" extra="true">
-				<text>Media: 	Cassette tape, floppy disk (optional) – 5.25? (common) (SS/SD, SS/DD, DS/SD, DS/DD), 3.5? (rare) (SS/DD, DS/DD), hard disk also known as 'Winchester' (rare), Laserdisc (BBC Domesday Project)</text>
+				<text>Media: 	Cassette tape, floppy disk (optional) ï¿½ 5.25? (common) (SS/SD, SS/DD, DS/SD, DS/DD), 3.5? (rare) (SS/DD, DS/DD), hard disk also known as 'Winchester' (rare), Laserdisc (BBC Domesday Project)</text>
 			</text>
 		</view>
 	</feature>

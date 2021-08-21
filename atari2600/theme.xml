@@ -9,7 +9,7 @@ author:			Grila
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 
-	<view name="system, basic, grid">
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
 			<path>./logo.svg</path>
 		</image>

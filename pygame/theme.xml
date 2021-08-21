@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:		Fundamental (Retroachievements)
+theme name:		Fundamental (pygame)
 version:		2.0
 author:			Juliano Dorigão
 -->
@@ -9,7 +9,7 @@ author:			Juliano Dorigão
 	<formatVersion>4</formatVersion>
 	<include>./../fundamental.xml</include>
 
-	<view name="system, basic, grid">
+	<view name="system, basic, detailed, grid, video">
 		<image name="logo">
 			<path>./logo.png</path>
 		</image>
