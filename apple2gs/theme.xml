@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (apple2gs)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Apple IIGS (styled as IIGS), the fifth and most powerful of the Apple II family, is a 16-bit personal computer produced by Apple Computer. While featuring the Macintosh look and feel, and resolution and color similar to the Amiga and Atari ST, it remains compatible with earlier Apple II models. The "GS" in the name stands for "Graphics and Sound," referring to its enhanced multimedia hardware, especially its state-of-the-art audio.
+					The microcomputer is a radical departure from any previous Apple II, with a 16-bit 65C816 microprocessor, direct access to megabytes of random-access memory (RAM), and mouse. It is the first computer from Apple with a color graphical user interface (color was introduced on the Macintosh II six months later) and Apple Desktop Bus interface for keyboards, mice, and other input devices. It is the first personal computer with a wavetable synthesis chip, using technology from Ensoniq.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: September 15, 1986</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Apple Computer, Inc.</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 65C816 @ 2.8 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 256KB ~ 1MB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: VGC 12-bpp palette</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Ensoniq ES5503 DOC 8-bit</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
