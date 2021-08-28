@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (n64dd)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The 64DD is a magnetic floppy disk drive peripheral for the Nintendo 64 game console developed by Nintendo. It was announced in 1995, prior to the Nintendo 64's 1996 launch, and after numerous delays was released in Japan on December 13, 1999. The "64" references both the Nintendo 64 console and the 64MB storage capacity of the disks, and "DD" is short for "disk drive" or "dynamic drive". Plugging into the extension port on the underside of the console, the 64DD allows the Nintendo 64 to use proprietary 64MB magnetic disks for expanded and rewritable data storage, a real-time clock for persistent game world design, and a standard font and audio library for further storage efficiency.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: December 13, 1999</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo, Alps Electric</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 64-bit NEC VR4300</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 4 MB RDRAM expandable to 8 MB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Magnetic disk (64 MB)</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
