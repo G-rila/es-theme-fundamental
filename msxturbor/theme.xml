@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (msxturbor)
+version:		2.0
+author:			Juliano Dorigão
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The MSX Turbo R is the last generation of MSX computers that was put to market by a household electronic brand. Only Panasonic was brave enough to put faith in the standard once again, by releasing two different models: the Panasonic FS-A1ST and the Panasonic FS-A1GT. MSX Turbo R computers were produced until 1994.
+
+According to Kay Nishi, the R on the MSX Turbo R stands for RISC (Reduced instruction set computing).</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 1983</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Microsoft Japan, ASCII Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 16-512 KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Yamaha V9978</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: General Instrument AY-3-8910</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Floppy disk, Datasette, Cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
