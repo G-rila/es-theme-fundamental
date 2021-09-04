@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (mame)
+version:		2.0
+author:			Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, detailed, grid, video">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, (e.g. Windows Server or Windows Embedded Compact) (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
+Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs). Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: November 20, 1985</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Microsoft</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Varies</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: Varies</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Varies</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Varies</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Varies</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
