@@ -22,7 +22,7 @@ author:			Grila
 			</image>
 	
 			<text name="console_notes" extra="true">
-				<text>The Fairchild Channel F, F for Fun[2], is a second-generation home video game console that was released by Fairchild Semiconductor in November 1976 across North America at a retail price of $169.95. It was also released in Japan in October the following year. It has the distinction of being the first programmable ROM cartridge–based video game console, and the first console to use a microprocessor. It was originally named Video Entertainment System, or VES, but when Atari released its VCS the next year, Fairchild changed the name for its machine, although they continued to use the old name alongside it. By 1977, the Fairchild Channel F had sold about 250,000 units, trailing behind sales of the VCS.</text>
+				<text>The Fairchild Channel F, F for Fun, is a second-generation home video game console that was released by Fairchild Semiconductor in November 1976 across North America at a retail price of $169.95. It was also released in Japan in October the following year. It has the distinction of being the first programmable ROM cartridge based video game console, and the first console to use a microprocessor. It was originally named Video Entertainment System, or VES, but when Atari released its VCS the next year, Fairchild changed the name for its machine, although they continued to use the old name alongside it. By 1977, the Fairchild Channel F had sold about 250,000 units, trailing behind sales of the VCS.</text>
 			</text>
 		
 			<text name="release_date" extra="true">
@@ -42,7 +42,7 @@ author:			Grila
 			</text>
 			
 			<text name="graphics" extra="true">
-				<text>Graphics: 128×64 pixels</text>
+				<text>Graphics: 128x64 pixels</text>
 			</text>
 			
 			<text name="sound" extra="true">
